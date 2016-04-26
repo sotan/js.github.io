@@ -3,7 +3,7 @@ sotan.github.io is a terminal simulator that uses a JSON filesystem. To see it i
 check out [sotan.github.io](http://sotan.github.io).
 
 ## How To Use
-At the bottom of the [js/jsterm.js](js/jsterm.js) file,
+At the bottom of the [js/io.js](js/io.js) file,
 there is a series of term.enqueue() calls. This is where the commands are set
 that are run when the page loads. Other changes can be made to personalize your
 terminal. The directory structure is as follows:
@@ -15,7 +15,7 @@ terminal. The directory structure is as follows:
 - [images](images) - Image files used in your filesystem.
 - [js](js) - The jsterm implementation.
 - [json](json) - Where the filesystem is stored. Change the
-  term.Init() call in [js/jsterm.js](js/jsterm.js) to change
+  term.Init() call in [js/io.js](js/io.js) to change
   which filesystem is loaded.
 
 For the loading of the filesytem to work locally, you must server the files in
