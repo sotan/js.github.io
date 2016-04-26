@@ -1,0 +1,77 @@
+// Copyright 2013 Clark DuVall
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+html {
+}
+
+body {
+   background: black;
+}
+
+.io a {
+   color: #E0E0E0;
+   text-decoration: none;
+}
+
+.io a:hover {
+   text-decoration: underline;
+}
+
+div.io {
+   background: black;
+   font-family: monospace;
+   font-size: 16px;
+   color: #E0E0E0;
+   width: 900px;
+   margin-bottom: 20px;
+   white-space: pre-wrap;
+}
+
+div.io .host, div.io .host a {
+   color: #5555ff;
+   font-weight: bold;
+}
+
+div.io .user, div.io .user a {
+   color: #ff5555;
+   font-weight: bold;
+}
+
+div.io .cwd, div.io .cwd a {
+   color: #ffff55;
+   font-weight: bold;
+}
+
+div.io .dir, div.io .dir a {
+   color: #5555ff;
+   font-weight: bold;
+}
+
+div.io .link, div.io .link a {
+   color: #5555ff;
+   font-weight: bold;
+}
+
+div.io .exec, div.io .exec a {
+   color: #55ff55;
+   font-weight: bold;
+}
+
+div.io .img, div.io .img a {
+   color: #ff55ff;
+   font-weight: bold;
+}
+
+#blinker {
+    line-height: .9em;
+}
