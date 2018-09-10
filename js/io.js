@@ -552,7 +552,6 @@
           .enqueue('cat JiangNanXiaoYu')
           .enqueue('cat CaiSangZi')
           .enqueue('cat DieLianHua')
-          .enqueue('cat WangXiaoBo')
           .enqueue('cd ../')
           .enqueue('tree')
           .begin();
